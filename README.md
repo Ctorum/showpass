@@ -17,16 +17,41 @@ ShowPass is a Bash script that retrieves and displays WiFi network information, 
 
 ## Installation
 
-1. Clone this repository or download the `showpass.sh` script.
-2. Make the script executable:
+1. Clone this repository:
 
 ```bash
-   chmod +x showpass.sh
+git clone https://github.com/ctorum/showpass.git
 ```
+
+2. Navigate to the cloned directory:
+
+```bash
+cd showpass
+```
+
+3. Make the script executable:
+
+```bash
+chmod +x showpass.sh
+```
+
+4. (Optional) Install globally for easier access:
+
+```bash
+sudo cp showpass.sh /usr/local/bin/showpass
+```
+
+Now you can run `showpass` from any directory in the terminal.
 
 ## Usage
 
 Run the script from the terminal:
+
+```bash
+showpass
+```
+
+If you didn't install it globally, run it from the directory where it's located:
 
 ```bash
 ./showpass.sh
