@@ -42,7 +42,7 @@ The script will:
 
 This script requires administrative privileges to access WiFi information. You may be prompted to enter your password when running the script.
 
-## License
+<!-- ## License
 
 [Insert your chosen license here]
 
@@ -52,4 +52,4 @@ This script requires administrative privileges to access WiFi information. You m
 
 ## Support
 
-[Insert support information here]
+[Insert support information here] -->
